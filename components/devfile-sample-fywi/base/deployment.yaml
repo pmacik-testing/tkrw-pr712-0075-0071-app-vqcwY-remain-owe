@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fywi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0071-tenant/tkrw-pr712-0075-0071-app/devfile-sample-fywi@sha256:9a13f05249709a00a6d1ab947d85de8f8e0935e6d4afa5dddd2a42f403d0c165
         name: my-nodejs
         ports:
         - containerPort: 3001
